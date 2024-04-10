@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ 
+    <title>Noted Apps - Andhika Dana Nugraha</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="head_bar">
+        <h1 class="head_bar__title">Noted Apps</h1>
+    </header>
+    <main>
+        <section class="search_section">
+            <form id="searchBook">
+                <div class="search">
+                    <input id="searchBookTitle" type="text" placeholder="Search" />
+                    <button id="searchSubmit" type="submit"><i class="bi bi-search"></i></button>
+                </div>
+                <div class="add">
+                    <button id="addBook"><i class="bi bi-plus-lg"></i><span>New Note</span></button>
+                </div>
+            </form>
+        </section>
+        <section id="formBook">
+            <div class="input_section">
+                <div class="title-input">
+                    <h2>Add New Book</h2>
+                    <span id="close"><i class="bi bi-x-circle-fill"></i></span>
+                </div>
+                <form id="inputBook">
+                    <div class="input">
+                        <input id="inputBookTitle" class="required" type="text" placeholder="Title" required />
+                    </div>
+                    <div class="input">
+                        <input id="inputBookBody" class="required" type="text" placeholder="Body" required />
+                    </div>
+                    
+                    <button id="bookSubmit" type="submit">New Note</button>
+                </form>
+            </div>
+        </section>
+        <section class="showBook">
+            <section class="book_shelf">
+                <!-- <h2>Unfinished Read</h2> -->
+                <div id="incompleteBookshelfList" class="book_list">
+                    
+                </div>
+            </section>
+            <section class="book_shelf">
+                <!-- <h2>Finished Read</h2> -->
+                <!-- <div id="completeBookshelfList" class="book_list">
+                    
+                </div> -->
+            </section>
+        </section>
+       
+    </main>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li style="order: 2"><a href="https://github.com/andhikadananugraha">Github</a></li>
+                <li style="order: 3"><a href="https://www.linkedin.com/in/andhikadananugraha/">LinkedIn</a></li>
+                <li style="order: 4"><a href="https://gitlab.com/andhikadananugraha">Gitlab</a></li>
+                <li style="order: 5"><a href="https://www.dicoding.com/users/andhikadananugraha/academies">Dicoding</a></li>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
